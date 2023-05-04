@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -1313,7 +1313,6 @@
 					};
 					926C77D621FD1E6500103EDE = {
 						CreatedOnToolsVersion = 10.1;
-						DevelopmentTeam = UK699V5ZS8;
 						ProvisioningStyle = Automatic;
 					};
 					9292D6E028F549D000E47A75 = {
@@ -1841,7 +1840,7 @@
 				CURRENT_PROJECT_VERSION = 1.15.0;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEPS_DIR = "$(SRCBASE)/deps";
-				DEVELOPMENT_TEAM = UK699V5ZS8;
+				DEVELOPMENT_TEAM = 2JGB3D32SM;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1956,7 +1955,7 @@
 					"-D_LZMA_UINT32_IS_ULONG",
 					"-D__LIBRETRO__",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.libretro.dist.tvos.RetroArch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aj.RetroArch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
@@ -2000,7 +1999,7 @@
 				CURRENT_PROJECT_VERSION = 1.15.0;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPS_DIR = "$(SRCBASE)/deps";
-				DEVELOPMENT_TEAM = UK699V5ZS8;
+				DEVELOPMENT_TEAM = 2JGB3D32SM;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -2117,7 +2116,7 @@
 					"-D_LZMA_UINT32_IS_ULONG",
 					"-D__LIBRETRO__",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.libretro.dist.tvos.RetroArch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aj.RetroArch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
@@ -2258,8 +2257,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.libretro.RetroArchiOS11.RetroArchWidgetExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
